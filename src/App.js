@@ -17,7 +17,7 @@ const App = () => {
 					Learn React
 				</a>
 				<p>
-					(your are in the "{process.env.REACT_APP_THE_ENVIRONMENT}" environment)
+					(you're in the "{process.env.REACT_APP_THE_ENVIRONMENT}" environment)
 				</p>
 			</header>
 		</div>
