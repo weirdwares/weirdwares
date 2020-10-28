@@ -1,16 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
 import SmartyStreetsSDK from 'smartystreets-javascript-sdk';
+import './App.css';
 
 const SmartyStreetsCore = SmartyStreetsSDK.core;
 const Lookup = SmartyStreetsSDK.usStreet.Lookup;
-
-// for Server-to-server requests, use this code:
-// let authId = "720bcd3d-1231-3798-8d81-a54b5dcc861f";
-// let authToken = "8ttts7GleZuhKsU7nDlC";
-// const credentials = new SmartyStreetsCore.StaticCredentials(authId, authToken);
 
 // for client-side requests (browser/mobile), use this code:
 let key = "33465703171571661";
@@ -54,46 +47,38 @@ batch.add(lookup1);
 // batch.add(lookup3);
 
 function handleSuccess(response) {
-  response.lookups.map(lookup => console.log(lookup.result));
+    response.lookups.map(lookup => console.log(lookup.result));
 }
 
 function handleError(response) {
-  console.log(response);
+    console.log(response);
 }
 
-function App() {
-  client.send(batch)
-      .then(handleSuccess)
-      .catch(handleError);
-  //
-  // var requestOptions = {
-  //   method: 'GET',
-  //   redirect: 'follow'
-  // };
+const App = () => {
+    client.send(batch)
+        .then(handleSuccess)
+        .catch(handleError);
 
-  // fetch("https://us-street.api.smartystreets.com/street-address?key=33465703171571661&street=1115 W 1130 N&city=Orem&state=UT&cadidates=10&license=us-standard-cloud", requestOptions)
-  //     .then(response => response.text())
-  //     .then(result => console.log(result))
-  //     .catch(error => console.log('error', error));
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header className="App-header">
+				<p>
+					Edit <code>src/App.js</code> and save to reload.
+				</p>
+				<a
+					className="App-link"
+					href="https://reactjs.org"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Learn React
+				</a>
+				<p>
+					(you're in the "{process.env.REACT_APP_THE_ENVIRONMENT}" environment)
+				</p>
+			</header>
+		</div>
+	);
 }
 
 export default App;
