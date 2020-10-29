@@ -86,7 +86,7 @@
       <updated>1602099960094</updated>
       <workItem from="1602099961197" duration="5219000" />
       <workItem from="1603206947078" duration="62000" />
-      <workItem from="1603906083036" duration="4760000" />
+      <workItem from="1603906083036" duration="5340000" />
     </task>
     <task id="LOCAL-00001" summary="Changes the main text">
       <created>1603987476882</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603987476882</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes the main text (again)">
+      <created>1603987689899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603987689899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,13 +121,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes the main text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes the main text" />
+    <MESSAGE value="Changes the main text (again)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes the main text (again)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3265" y="-138" width="1553" height="1024" key="CommitChangelistDialog2" timestamp="1603987476783">
+    <state x="3265" y="-138" width="1553" height="1024" key="CommitChangelistDialog2" timestamp="1603987689808">
       <screen x="1792" y="-382" width="3840" height="1577" />
     </state>
-    <state x="3265" y="-138" width="1553" height="1024" key="CommitChangelistDialog2/1792.-382.3840.1577/0.23.1792.1032@1792.-382.3840.1577" timestamp="1603987476783" />
+    <state x="3265" y="-138" width="1553" height="1024" key="CommitChangelistDialog2/1792.-382.3840.1577/0.23.1792.1032@1792.-382.3840.1577" timestamp="1603987689808" />
     <state width="3038" height="600" key="GridCell.Tab.0.bottom" timestamp="1603987483443">
       <screen x="1792" y="-382" width="3840" height="1577" />
     </state>
@@ -157,5 +165,9 @@
       <screen x="1792" y="-382" width="3840" height="1512" />
     </state>
     <state x="4057" y="135" key="MultipleFileMergeDialog/1792.-382.3840.1512/0.23.1792.1097@1792.-382.3840.1512" timestamp="1603913143704" />
+    <state x="4021" y="95" key="Vcs.Push.Dialog.v2" timestamp="1603987692615">
+      <screen x="1792" y="-382" width="3840" height="1577" />
+    </state>
+    <state x="4021" y="95" key="Vcs.Push.Dialog.v2/1792.-382.3840.1577/0.23.1792.1032@1792.-382.3840.1577" timestamp="1603987692615" />
   </component>
 </project>
