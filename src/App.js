@@ -71,7 +71,7 @@ const App = () => {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Learn React
+					Sample React App
 				</a>
 				<p>
 					(you're in the "{process.env.REACT_APP_THE_ENVIRONMENT}" environment)
