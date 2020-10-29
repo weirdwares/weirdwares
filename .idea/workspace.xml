@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="31f186e3-5334-4de0-8e45-c8d9e1fe8062" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,37 +86,68 @@
       <updated>1602099960094</updated>
       <workItem from="1602099961197" duration="5219000" />
       <workItem from="1603206947078" duration="62000" />
-      <workItem from="1603906083036" duration="4529000" />
+      <workItem from="1603906083036" duration="4760000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes the main text">
+      <created>1603987476882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603987476882</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes the main text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes the main text" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="3038" height="600" key="GridCell.Tab.0.bottom" timestamp="1603913230433">
-      <screen x="1792" y="-382" width="3840" height="1512" />
+    <state x="3265" y="-138" width="1553" height="1024" key="CommitChangelistDialog2" timestamp="1603987476783">
+      <screen x="1792" y="-382" width="3840" height="1577" />
+    </state>
+    <state x="3265" y="-138" width="1553" height="1024" key="CommitChangelistDialog2/1792.-382.3840.1577/0.23.1792.1032@1792.-382.3840.1577" timestamp="1603987476783" />
+    <state width="3038" height="600" key="GridCell.Tab.0.bottom" timestamp="1603987483443">
+      <screen x="1792" y="-382" width="3840" height="1577" />
     </state>
     <state width="2052" height="489" key="GridCell.Tab.0.bottom/0.23.1792.1032@0.23.1792.1032" timestamp="1603150006391" />
     <state width="3038" height="600" key="GridCell.Tab.0.bottom/1792.-382.3840.1512/0.23.1792.1097@1792.-382.3840.1512" timestamp="1603913230433" />
+    <state width="3038" height="600" key="GridCell.Tab.0.bottom/1792.-382.3840.1577/0.23.1792.1032@1792.-382.3840.1577" timestamp="1603987483443" />
     <state width="2539" height="489" key="GridCell.Tab.0.bottom/4352.-678.2560.1352/1792.-678.2560.1417/0.23.1792.1097@4352.-678.2560.1352" timestamp="1602104285986" />
-    <state width="3038" height="600" key="GridCell.Tab.0.center" timestamp="1603913230432">
-      <screen x="1792" y="-382" width="3840" height="1512" />
+    <state width="3038" height="600" key="GridCell.Tab.0.center" timestamp="1603987483442">
+      <screen x="1792" y="-382" width="3840" height="1577" />
     </state>
     <state width="2052" height="489" key="GridCell.Tab.0.center/0.23.1792.1032@0.23.1792.1032" timestamp="1603150006390" />
     <state width="3038" height="600" key="GridCell.Tab.0.center/1792.-382.3840.1512/0.23.1792.1097@1792.-382.3840.1512" timestamp="1603913230432" />
+    <state width="3038" height="600" key="GridCell.Tab.0.center/1792.-382.3840.1577/0.23.1792.1032@1792.-382.3840.1577" timestamp="1603987483442" />
     <state width="2539" height="489" key="GridCell.Tab.0.center/4352.-678.2560.1352/1792.-678.2560.1417/0.23.1792.1097@4352.-678.2560.1352" timestamp="1602104285985" />
-    <state width="3038" height="600" key="GridCell.Tab.0.left" timestamp="1603913230431">
-      <screen x="1792" y="-382" width="3840" height="1512" />
+    <state width="3038" height="600" key="GridCell.Tab.0.left" timestamp="1603987483441">
+      <screen x="1792" y="-382" width="3840" height="1577" />
     </state>
     <state width="2052" height="489" key="GridCell.Tab.0.left/0.23.1792.1032@0.23.1792.1032" timestamp="1603150006390" />
     <state width="3038" height="600" key="GridCell.Tab.0.left/1792.-382.3840.1512/0.23.1792.1097@1792.-382.3840.1512" timestamp="1603913230431" />
+    <state width="3038" height="600" key="GridCell.Tab.0.left/1792.-382.3840.1577/0.23.1792.1032@1792.-382.3840.1577" timestamp="1603987483441" />
     <state width="2539" height="489" key="GridCell.Tab.0.left/4352.-678.2560.1352/1792.-678.2560.1417/0.23.1792.1097@4352.-678.2560.1352" timestamp="1602104285985" />
-    <state width="3038" height="600" key="GridCell.Tab.0.right" timestamp="1603913230433">
-      <screen x="1792" y="-382" width="3840" height="1512" />
+    <state width="3038" height="600" key="GridCell.Tab.0.right" timestamp="1603987483442">
+      <screen x="1792" y="-382" width="3840" height="1577" />
     </state>
     <state width="2052" height="489" key="GridCell.Tab.0.right/0.23.1792.1032@0.23.1792.1032" timestamp="1603150006390" />
     <state width="3038" height="600" key="GridCell.Tab.0.right/1792.-382.3840.1512/0.23.1792.1097@1792.-382.3840.1512" timestamp="1603913230433" />
+    <state width="3038" height="600" key="GridCell.Tab.0.right/1792.-382.3840.1577/0.23.1792.1032@1792.-382.3840.1577" timestamp="1603987483442" />
     <state width="2539" height="489" key="GridCell.Tab.0.right/4352.-678.2560.1352/1792.-678.2560.1417/0.23.1792.1097@4352.-678.2560.1352" timestamp="1602104285985" />
     <state x="2200" y="-345" width="3120" height="1243" key="MergeDialog" timestamp="1603913143652">
       <screen x="1792" y="-382" width="3840" height="1512" />
