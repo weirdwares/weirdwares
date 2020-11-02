@@ -1,6 +1,6 @@
 {
   "name": "weirdwares.com",
-  "homepage": "https://noctufaber.github.io/weirdwares.com/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
