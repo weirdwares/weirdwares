@@ -22,8 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
-        env:
-          REACT_APP_THE_ENVIRONMENT: ${{ secrets.REACT_APP_THE_ENVIRONMENT }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
