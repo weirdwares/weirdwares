@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: export REACT_APP_THE_ENVIRONMENT=${{secrets.REACT_APP_THE_ENVIRONMENT}} & npm run build --if-present
+      - run: npm run build --if-present
       - run: npm test
       - name: Deploy
         run: |
@@ -35,6 +35,7 @@ jobs:
           git remote set-url origin https://${github_token}@github.com/${repository}
           npm run deploy
         env:
+          REACT_APP_THE_ENVIRONMENT: ${{ secrets.REACT_APP_THE_ENVIRONMENT }}
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
