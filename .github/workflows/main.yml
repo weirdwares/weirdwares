@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm run build --if-present
+      - run: export REACT_APP_THE_ENVIRONMENT=${{secrets.REACT_APP_THE_ENVIRONMENT}} & npm run build --if-present
       - run: npm test
       - name: Deploy
         run: |
